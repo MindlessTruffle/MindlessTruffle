@@ -1,1 +1,86 @@
 
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+<title id="title">Sammy Hawari</title>
+<desc id="desc">A minimal light-mode abstract scene combining a game world, code systems, and artificial intelligence.</desc>
+<defs>
+  <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#fbfaf7"/>
+    <stop offset="1" stop-color="#f2f0e9"/>
+  </linearGradient>
+  <linearGradient id="portal" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#d9ff75"/>
+    <stop offset="1" stop-color="#b8ee4a"/>
+  </linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#1b1c1d" flood-opacity=".09"/>
+  </filter>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#d7d5cf" stroke-width="1"/>
+  </pattern>
+</defs>
+
+<rect width="1200" height="430" rx="30" fill="url(#paper)"/>
+<rect x="26" y="26" width="1148" height="378" rx="24" fill="none" stroke="#1c1d1f" stroke-width="1.5"/>
+
+<!-- identity -->
+<circle cx="78" cy="73" r="7" fill="#1c1d1f"/>
+<path d="M102 73h66" stroke="#1c1d1f" stroke-width="1.5"/>
+<text x="76" y="128" fill="#171819" font-family="Inter, Arial, sans-serif" font-size="46" font-weight="650" letter-spacing="-1.5">sammy hawari</text>
+<text x="78" y="160" fill="#6b6d6e" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3.2">GAME DESIGN  /  ROBLOX  /  AI</text>
+
+<!-- abstract playground -->
+<g transform="translate(516 50)">
+  <rect x="0" y="0" width="610" height="330" rx="22" fill="#fff" stroke="#1c1d1f" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="22" y="22" width="566" height="286" rx="16" fill="url(#grid)"/>
+
+  <!-- portal -->
+  <rect x="257" y="50" width="98" height="188" rx="49" fill="url(#portal)" stroke="#1c1d1f" stroke-width="2"/>
+  <ellipse cx="306" cy="240" rx="70" ry="15" fill="#1c1d1f" opacity=".08"/>
+
+  <!-- player -->
+  <g transform="translate(291 188)" fill="#1c1d1f">
+    <rect x="0" y="0" width="30" height="31" rx="4"/>
+    <rect x="-4" y="31" width="38" height="31" rx="4"/>
+    <rect x="1" y="62" width="13" height="30" rx="3"/>
+    <rect x="20" y="62" width="13" height="30" rx="3"/>
+  </g>
+
+  <!-- game objects -->
+  <g stroke="#1c1d1f" stroke-width="2" fill="#fff">
+    <path d="M90 228 150 194l60 34-60 35z"/>
+    <path d="M90 228v34l60 35v-34z" fill="#eceae4"/>
+    <path d="M210 228v34l-60 35v-34z" fill="#dedbd2"/>
+    <circle cx="150" cy="211" r="15" fill="#ff8a65"/>
+    <path d="M150 194v-30" />
+    <path d="m150 164-10 16h20z" fill="#1c1d1f"/>
+  </g>
+
+  <!-- agent constellation -->
+  <g stroke="#1c1d1f" stroke-width="1.5" fill="#fff">
+    <path d="M438 92 492 59l48 43-17 58-70 7-35-42z"/>
+    <path d="m438 92 85 68M492 59l-39 108M540 102l-102-10M418 125l122-23"/>
+    <circle cx="438" cy="92" r="6" fill="#7d8cff"/>
+    <circle cx="492" cy="59" r="6" fill="#1c1d1f"/>
+    <circle cx="540" cy="102" r="6" fill="#ff8a65"/>
+    <circle cx="523" cy="160" r="6" fill="#b8ee4a"/>
+    <circle cx="453" cy="167" r="6" fill="#fff"/>
+    <circle cx="418" cy="125" r="6" fill="#fff"/>
+  </g>
+
+  <!-- small system marks -->
+  <g fill="none" stroke="#1c1d1f" stroke-width="1.5">
+    <rect x="52" y="54" width="96" height="54" rx="10"/>
+    <path d="M70 72h58M70 90h34"/>
+    <circle cx="548" cy="262" r="18"/>
+    <path d="M548 250v24M536 262h24"/>
+  </g>
+</g>
+
+<!-- tiny coordinate marks -->
+<g fill="#6b6d6e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
+  <text x="78" y="356">43.4516° N</text>
+  <text x="78" y="374">80.4925° W</text>
+</g>
+<path d="M78 327h212" stroke="#1c1d1f" stroke-width="1.5"/>
+<circle cx="306" cy="327" r="4" fill="#ff8a65"/>
+</svg>
