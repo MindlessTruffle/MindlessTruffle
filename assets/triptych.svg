@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
+<title id="title">Three visual studies</title>
+<desc id="desc">Three minimal cards representing worlds, systems, and intelligence.</desc>
+<defs>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#1b1c1d" flood-opacity=".07"/>
+  </filter>
+</defs>
+<rect width="1200" height="310" fill="#fbfaf7"/>
+
+<!-- card 1 -->
+<g transform="translate(0 5)">
+  <rect x="0" y="0" width="380" height="290" rx="26" fill="#fff" stroke="#1c1d1f" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="28" y="42" fill="#1c1d1f" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">01 / WORLDS</text>
+  <g transform="translate(56 62)" stroke="#1c1d1f" stroke-width="2" stroke-linejoin="round">
+    <path d="M40 136 138 80l98 56-98 57z" fill="#f2f0e9"/>
+    <path d="M40 136v42l98 57v-42z" fill="#e4e0d7"/>
+    <path d="M236 136v42l-98 57v-42z" fill="#d6d1c6"/>
+    <path d="M91 123 138 96l47 27-47 27z" fill="#b8ee4a"/>
+    <circle cx="190" cy="104" r="16" fill="#ff8a65"/>
+    <path d="M190 88V62"/>
+    <path d="m190 62-9 14h18z" fill="#1c1d1f"/>
+    <rect x="77" y="143" width="22" height="38" rx="3" fill="#7d8cff"/>
+  </g>
+</g>
+
+<!-- card 2 -->
+<g transform="translate(410 5)">
+  <rect x="0" y="0" width="380" height="290" rx="26" fill="#fff" stroke="#1c1d1f" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="28" y="42" fill="#1c1d1f" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">02 / SYSTEMS</text>
+  <g transform="translate(46 74)" stroke="#1c1d1f" stroke-width="2" fill="#fff">
+    <rect x="0" y="14" width="84" height="58" rx="12" fill="#f2f0e9"/>
+    <rect x="102" y="92" width="84" height="58" rx="12" fill="#b8ee4a"/>
+    <rect x="204" y="14" width="84" height="58" rx="12" fill="#f2f0e9"/>
+    <path d="M84 43h44v49M186 121h44V72"/>
+    <circle cx="128" cy="43" r="7" fill="#7d8cff"/>
+    <circle cx="230" cy="121" r="7" fill="#ff8a65"/>
+    <path d="M20 34h44M20 52h27M122 113h44M122 131h25M224 34h44M224 52h30"/>
+  </g>
+  <g fill="#1c1d1f">
+    <circle cx="46" cy="246" r="4"/><circle cx="62" cy="246" r="4"/><circle cx="78" cy="246" r="4"/>
+  </g>
+</g>
+
+<!-- card 3 -->
+<g transform="translate(820 5)">
+  <rect x="0" y="0" width="380" height="290" rx="26" fill="#fff" stroke="#1c1d1f" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="28" y="42" fill="#1c1d1f" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">03 / INTELLIGENCE</text>
+  <g transform="translate(58 62)" stroke="#1c1d1f" stroke-width="1.8" fill="none">
+    <path d="M132 4 225 57 225 164 132 218 39 164 39 57z"/>
+    <path d="m132 4 0 214M39 57l186 107M225 57 39 164"/>
+    <path d="m39 57 93 53 93-53M39 164l93-54 93 54"/>
+  </g>
+  <g transform="translate(58 62)" stroke="#1c1d1f" stroke-width="1.5">
+    <circle cx="132" cy="4" r="10" fill="#7d8cff"/>
+    <circle cx="225" cy="57" r="10" fill="#fff"/>
+    <circle cx="225" cy="164" r="10" fill="#ff8a65"/>
+    <circle cx="132" cy="218" r="10" fill="#fff"/>
+    <circle cx="39" cy="164" r="10" fill="#b8ee4a"/>
+    <circle cx="39" cy="57" r="10" fill="#fff"/>
+    <circle cx="132" cy="110" r="14" fill="#1c1d1f"/>
+  </g>
+</g>
+</svg>
