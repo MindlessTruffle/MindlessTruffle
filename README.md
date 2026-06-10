@@ -1,17 +1,30 @@
 <div align="center">
 
-<br>
+<br><br>
 
 # sammy hawari
 
-<sub>GAME DESIGN · ROBLOX · ARTIFICIAL INTELLIGENCE</sub>
-
-<br><br>
-
-designing systems
-that people can play with
+`game designer / roblox developer / ai programmer`
 
 <br>
+
+<pre>
+        player
+           │
+     ┌─────┴─────┐
+     │           │
+   explore     create
+     │           │
+     └─────┬─────┘
+           │
+        surprise
+</pre>
+
+<br>
+
+<sub>building things that respond, adapt, and play back.</sub>
+
+<br><br>
 
 </div>
 
@@ -19,33 +32,75 @@ that people can play with
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="center">
 
-### worlds
+### 01 / PLAY
 
-games built around strong mechanics, atmosphere, and interaction.
+<pre>
+INPUT
+  │
+  ▼
+CHOICE ──────┐
+  │          │
+  ▼          │
+WORLD        │
+  │          │
+  └──────────┘
+</pre>
+
+`mechanics` `worlds` `feel`
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="center">
 
-### systems
+### 02 / BUILD
 
-roblox infrastructure, interfaces, progression, and gameplay code.
+<pre>
+local world = {}
+
+function world:play()
+    self.state += 1
+end
+
+return world
+</pre>
+
+`luau` `systems` `roblox`
 
 </td>
-<td width="33%" valign="top">
+<td width="33%" valign="top" align="center">
 
-### intelligence
+### 03 / THINK
 
-agents, machine learning, automation, and experimental software.
+<pre>
+observe()
+    ↓
+remember()
+    ↓
+decide()
+    ↓
+act()
+    ↺
+</pre>
+
+`agents` `models` `tools`
 
 </td>
 </tr>
 </table>
 
-<br>
+---
 
 <div align="center">
-<sub>currently making things that are difficult to categorize.</sub>
+
+<br>
+
+<pre>
+PLAY  ×  SYSTEMS  ×  INTELLIGENCE
+</pre>
+
+<sub>currently experimenting.</sub>
+
+<br><br>
+
 </div>
-::: ​​
