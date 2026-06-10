@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="44" viewBox="0 0 330 44" role="img" aria-labelledby="title">
+  <title id="title">sammyhawari@gmail.com</title>
+  <rect x="1" y="1" width="328" height="42" rx="22" fill="#f8f7f2" stroke="#1b1c1d" stroke-width="1.5"/>
+  <path d="M19 15h20v14H19z" fill="none" stroke="#1b1c1d" stroke-width="1.5"/>
+  <path d="m19 15 10 8 10-8" fill="none" stroke="#1b1c1d" stroke-width="1.5"/>
+  <text x="56" y="28" fill="#1b1c1d" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0.2">sammyhawari@gmail.com</text>
+</svg>
