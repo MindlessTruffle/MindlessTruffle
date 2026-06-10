@@ -1,106 +1,11 @@
-<div align="center">
-
-<br><br>
-
-# sammy hawari
-
-`game designer / roblox developer / ai programmer`
-
-<br>
-
-<pre>
-        player
-           │
-     ┌─────┴─────┐
-     │           │
-   explore     create
-     │           │
-     └─────┬─────┘
-           │
-        surprise
-</pre>
-
-<br>
-
-<sub>building things that respond, adapt, and play back.</sub>
-
-<br><br>
-
-</div>
-
----
-
-<table>
-<tr>
-<td width="33%" valign="top" align="center">
-
-### 01 / PLAY
-
-<pre>
-INPUT
-  │
-  ▼
-CHOICE ──────┐
-  │          │
-  ▼          │
-WORLD        │
-  │          │
-  └──────────┘
-</pre>
-
-`mechanics` `worlds` `feel`
-
-</td>
-<td width="33%" valign="top" align="center">
-
-### 02 / BUILD
-
-<pre>
-local world = {}
-
-function world:play()
-    self.state += 1
-end
-
-return world
-</pre>
-
-`luau` `systems` `roblox`
-
-</td>
-<td width="33%" valign="top" align="center">
-
-### 03 / THINK
-
-<pre>
-observe()
-    ↓
-remember()
-    ↓
-decide()
-    ↓
-act()
-    ↺
-</pre>
-
-`agents` `models` `tools`
-
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-<br>
-
-<pre>
-PLAY  ×  SYSTEMS  ×  INTELLIGENCE
-</pre>
-
-<sub>currently experimenting.</sub>
-
-<br><br>
-
-</div>
+<p align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Sammy Hawari — game designer, Roblox developer, AI programmer">
+</p>
+<p align="center">
+  <img src="./assets/triptych.svg" width="100%" alt="World design, systems programming, and artificial intelligence">
+</p>
+<p align="center">
+  <a href="mailto:sammy.hawari@gmail.com">
+    <img src="./assets/contact.svg" height="42" alt="Contact">
+  </a>
+</p>
