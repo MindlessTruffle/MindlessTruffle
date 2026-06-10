@@ -1,16 +1,51 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**MindlessTruffle/MindlessTruffle** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<br>
 
-Here are some ideas to get you started:
+# sammy hawari
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<sub>GAME DESIGN · ROBLOX · ARTIFICIAL INTELLIGENCE</sub>
+
+<br><br>
+
+designing systems
+that people can play with
+
+<br>
+
+</div>
+
+---
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### worlds
+
+games built around strong mechanics, atmosphere, and interaction.
+
+</td>
+<td width="33%" valign="top">
+
+### systems
+
+roblox infrastructure, interfaces, progression, and gameplay code.
+
+</td>
+<td width="33%" valign="top">
+
+### intelligence
+
+agents, machine learning, automation, and experimental software.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<div align="center">
+<sub>currently making things that are difficult to categorize.</sub>
+</div>
+::: ​​
